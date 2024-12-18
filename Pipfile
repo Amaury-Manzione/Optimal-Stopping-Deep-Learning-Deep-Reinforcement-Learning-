@@ -1,0 +1,32 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+scipy = "*"
+tqdm = "*"
+matplotlib = "*"
+torch = "*"
+jupyter = "*"
+pytest = "*"
+torchvision = "*"
+pandas = "*"
+gymnasium = {extras = ["classic-control"] }
+tensorflow = "*"
+torchrl = "*"
+scikit-image = "*"
+pillow = "*"
+optuna = "*"
+py2puml = "*"
+pylint = "*"
+graphviz = "*"
+
+[dev-packages]
+black = "*"
+isort = "*"
+seaborn = "*"
+
+[requires]
+python_version = "3.11"
